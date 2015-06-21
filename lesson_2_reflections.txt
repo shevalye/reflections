@@ -4,4 +4,20 @@ it will turn directory into git repository, with history tracking and other git 
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-staging area is intermediate state for adding file to repository, or changing it
+staging area is intermediate state for adding file to repository, or changing it. can be used when merging and resolving conflicts at once making commit of merge and resolving conflict.is good to leave changes in staging area,experiment, compare with working directory or repository with diff, or diff --staged, come back and commit or reset.
+
+
+How can you use the staging area to make sure you have one commit per logical change?
+ you can compare staging with commit and working directory by runnung diff --staged or diff
+ when run commit it will make staging changes into commit with message.by this u will see that changes are   one logical change or not before commiting
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+ situations like experiment, or localisations which can be merged later. some branch can be used to try things out and not make it public for a while.
+
+How do the diagrams help you visualize the branch structure?
+
+  by showing arrows pointing to parents nodes we can see reachability of the nodes and changes and see nodes 
+with descriptive labels.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+ it saves time. git shows conflicts if present to resolve, othervise saves manual work
