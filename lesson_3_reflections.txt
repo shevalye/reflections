@@ -1,0 +1,2 @@
+When would you want to use a remote repository rather than keeping all your work local?
+ when i'm sure branch is working ok to make it public, so that collaborators could pull it/work on it
