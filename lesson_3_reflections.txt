@@ -1,2 +1,5 @@
 When would you want to use a remote repository rather than keeping all your work local?
  when i'm sure branch is working ok to make it public, so that collaborators could pull it/work on it
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+ you might want to leave branch not updated for a while or change branch to pull to or delete remote etc. when pulling manually you think about it. 
